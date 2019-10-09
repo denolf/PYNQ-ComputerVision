@@ -79,8 +79,8 @@ copy_notebooks()
 
 
 setup(name=pynqcv_module_name,
-      version='2.3',
-      install_requires=['pynq>=2.3'],
+      version='2.4',
+      install_requires=['pynq>=2.4'],
       description='PYNQ computer vision package',
       license='BSD 3-Clause License',
       author='Xilinx computer vision group',
