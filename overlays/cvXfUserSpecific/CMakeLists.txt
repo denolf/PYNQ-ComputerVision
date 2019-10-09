@@ -50,7 +50,7 @@ set(componentList "bitwise_not;boxFilter")
 
 ################## no changes needed after this line ##############################
 
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/../../frameworks/cmakeModules)
-include(rulesForSDxXfOpenCV)
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/../../frameworks/cmakeModules/cmakeModulesXilinx ${CMAKE_CURRENT_SOURCE_DIR}/../../frameworks/cmakeModules)
+include(rulesForXfOpenCV)
 
 createOverlayWithPythonBindings(${overlayName} "../.." "${componentList}")
